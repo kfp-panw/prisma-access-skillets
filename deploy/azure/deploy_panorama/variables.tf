@@ -52,7 +52,7 @@ variable "virtualMachineName" {
 }
 variable "virtualMachineSize" {
   description = "Virtual Machine Size"
-  default     = "Standard_D3"
+  default     = "Standard_D4_v2"
 }
 variable "panoramaVersion" {
   description = "Panorama Version"
